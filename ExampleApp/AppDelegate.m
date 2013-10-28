@@ -15,4 +15,9 @@
     return YES;
 }
 
+- (NSString *)foo
+{
+  return @"bar";
+}
+
 @end
