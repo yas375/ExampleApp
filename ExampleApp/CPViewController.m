@@ -7,6 +7,7 @@
 //
 
 #import <CSNotificationView/CSNotificationView.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 #import "CPViewController.h"
 
 @interface CPViewController ()
@@ -22,6 +23,7 @@
   [CSNotificationView showInViewController:self
                                      style:CSNotificationViewStyleError
                                    message:@"A critical error happened."];
+  [SVProgressHUD showSuccessWithStatus:@"YAY!"];
 }
 
 @end
