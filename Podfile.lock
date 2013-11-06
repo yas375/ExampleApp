@@ -1,10 +1,13 @@
 PODS:
   - CSNotificationView (0.3)
+  - SVProgressHUD (1.0)
 
 DEPENDENCIES:
   - CSNotificationView
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   CSNotificationView: 5b5040243ccf631f2039a670ee1dbd2160890f90
+  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
 
 COCOAPODS: 0.27.1
