@@ -7,7 +7,7 @@
 //
 
 #import "CZMasterViewController.h"
-
+#import "NotificationsViewController.h"
 #import "CZDetailViewController.h"
 
 @interface CZMasterViewController () {
@@ -30,11 +30,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-  self.navigationItem.leftBarButtonItem = self.editButtonItem;
+  self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(showNotifications:)];
 
   UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
   self.navigationItem.rightBarButtonItem = addButton;
   self.detailViewController = (CZDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+}
+
+- (void)showNotifications:(id)sender
+{
+  NotificationsViewController *controller = [[NotificationsViewController alloc] initWithNibName:@"NotificationsViewController" bundle:nil];
+
+  UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
+  navigationController.modalPresentationStyle = UIModalPresentationFormSheet;
+
+  [self presentViewController:navigationController animated:YES completion:nil];
+
 }
 
 - (void)didReceiveMemoryWarning

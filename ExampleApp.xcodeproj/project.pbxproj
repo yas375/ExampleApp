@@ -23,6 +23,13 @@
 		5087E00E1832C854004E9B65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087DFEA1832C853004E9B65 /* UIKit.framework */; };
 		5087E0161832C854004E9B65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5087E0141832C854004E9B65 /* InfoPlist.strings */; };
 		5087E0181832C854004E9B65 /* ExampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087E0171832C854004E9B65 /* ExampleAppTests.m */; };
+		5087E0241832CC00004E9B65 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087E0221832CC00004E9B65 /* NotificationsViewController.m */; };
+		5087E0251832CC00004E9B65 /* NotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5087E0231832CC00004E9B65 /* NotificationsViewController.xib */; };
+		5087E0281832CF20004E9B65 /* FilePreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087E0271832CF20004E9B65 /* FilePreviewItem.m */; };
+		5087E02A1832CF60004E9B65 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E0291832CF60004E9B65 /* QuickLook.framework */; };
+		5087E02C1832CFDE004E9B65 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5087E02B1832CFDD004E9B65 /* earth.jpg */; };
+		5087E0301832D328004E9B65 /* CZSomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087E02E1832D328004E9B65 /* CZSomeViewController.m */; };
+		5087E0311832D328004E9B65 /* CZSomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5087E02F1832D328004E9B65 /* CZSomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,16 @@
 		5087E0131832C854004E9B65 /* ExampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleAppTests-Info.plist"; sourceTree = "<group>"; };
 		5087E0151832C854004E9B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5087E0171832C854004E9B65 /* ExampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppTests.m; sourceTree = "<group>"; };
+		5087E0211832CC00004E9B65 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		5087E0221832CC00004E9B65 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		5087E0231832CC00004E9B65 /* NotificationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsViewController.xib; sourceTree = "<group>"; };
+		5087E0261832CF20004E9B65 /* FilePreviewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePreviewItem.h; sourceTree = "<group>"; };
+		5087E0271832CF20004E9B65 /* FilePreviewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePreviewItem.m; sourceTree = "<group>"; };
+		5087E0291832CF60004E9B65 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		5087E02B1832CFDD004E9B65 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		5087E02D1832D328004E9B65 /* CZSomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZSomeViewController.h; sourceTree = "<group>"; };
+		5087E02E1832D328004E9B65 /* CZSomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZSomeViewController.m; sourceTree = "<group>"; };
+		5087E02F1832D328004E9B65 /* CZSomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZSomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5087E02A1832CF60004E9B65 /* QuickLook.framework in Frameworks */,
 				5087DFE91832C853004E9B65 /* CoreGraphics.framework in Frameworks */,
 				5087DFEB1832C853004E9B65 /* UIKit.framework in Frameworks */,
 				5087DFE71832C853004E9B65 /* Foundation.framework in Frameworks */,
@@ -106,6 +124,7 @@
 		5087DFE51832C853004E9B65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5087E0291832CF60004E9B65 /* QuickLook.framework */,
 				5087DFE61832C853004E9B65 /* Foundation.framework */,
 				5087DFE81832C853004E9B65 /* CoreGraphics.framework */,
 				5087DFEA1832C853004E9B65 /* UIKit.framework */,
@@ -127,6 +146,15 @@
 				5087E0021832C853004E9B65 /* CZDetailViewController.m */,
 				5087E0041832C853004E9B65 /* Images.xcassets */,
 				5087DFED1832C853004E9B65 /* Supporting Files */,
+				5087E0211832CC00004E9B65 /* NotificationsViewController.h */,
+				5087E0221832CC00004E9B65 /* NotificationsViewController.m */,
+				5087E02B1832CFDD004E9B65 /* earth.jpg */,
+				5087E0231832CC00004E9B65 /* NotificationsViewController.xib */,
+				5087E0261832CF20004E9B65 /* FilePreviewItem.h */,
+				5087E0271832CF20004E9B65 /* FilePreviewItem.m */,
+				5087E02D1832D328004E9B65 /* CZSomeViewController.h */,
+				5087E02E1832D328004E9B65 /* CZSomeViewController.m */,
+				5087E02F1832D328004E9B65 /* CZSomeViewController.xib */,
 			);
 			path = ExampleApp;
 			sourceTree = "<group>";
@@ -238,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087DFFD1832C853004E9B65 /* Main_iPad.storyboard in Resources */,
+				5087E0251832CC00004E9B65 /* NotificationsViewController.xib in Resources */,
+				5087E02C1832CFDE004E9B65 /* earth.jpg in Resources */,
 				5087E0051832C853004E9B65 /* Images.xcassets in Resources */,
+				5087E0311832D328004E9B65 /* CZSomeViewController.xib in Resources */,
 				5087DFFA1832C853004E9B65 /* Main_iPhone.storyboard in Resources */,
 				5087DFF11832C853004E9B65 /* InfoPlist.strings in Resources */,
 			);
@@ -259,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5087E0241832CC00004E9B65 /* NotificationsViewController.m in Sources */,
 				5087DFF31832C853004E9B65 /* main.m in Sources */,
 				5087DFF71832C853004E9B65 /* CZAppDelegate.m in Sources */,
 				5087E0031832C853004E9B65 /* CZDetailViewController.m in Sources */,
 				5087E0001832C853004E9B65 /* CZMasterViewController.m in Sources */,
+				5087E0301832D328004E9B65 /* CZSomeViewController.m in Sources */,
+				5087E0281832CF20004E9B65 /* FilePreviewItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
