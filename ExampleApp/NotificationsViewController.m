@@ -43,8 +43,10 @@
 
 - (IBAction)openItem:(id)sender
 {
-  [self.previewController refreshCurrentPreviewItem];
-  [self presentViewController:self.previewController animated:YES completion:nil];
+  dispatch_async(dispatch_get_main_queue(), ^{
+    [self.previewController refreshCurrentPreviewItem];
+    [self presentViewController:self.previewController animated:YES completion:nil];
+  });
 }
 
 - (IBAction)presentOtheViewController:(id)sender
