@@ -25,12 +25,25 @@
                                     <constraint firstAttribute="width" constant="234" id="Zq4-c1-5xo"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AX8-Zq-v0Q">
+                                <rect key="frame" x="46" y="323" width="234" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.27058823529999998" green="0.65490196079999996" blue="0.61568627450000002" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="234" id="6wV-u9-kli"/>
+                                    <constraint firstAttribute="height" constant="196" id="ROV-IJ-hhe"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ICM-x4-crn" firstAttribute="top" relation="lessThanOrEqual" secondItem="jhb-O5-qdt" secondAttribute="bottom" constant="80" id="14u-tA-lSm"/>
+                            <constraint firstItem="ICM-x4-crn" firstAttribute="top" relation="lessThanOrEqual" secondItem="jhb-O5-qdt" secondAttribute="bottom" constant="60" id="14u-tA-lSm"/>
                             <constraint firstAttribute="centerX" secondItem="ICM-x4-crn" secondAttribute="centerX" priority="800" id="3PI-Q4-zmU"/>
+                            <constraint firstAttribute="centerX" secondItem="AX8-Zq-v0Q" secondAttribute="centerX" priority="800" id="7XT-n5-IK4"/>
+                            <constraint firstItem="9Ag-KR-HOK" firstAttribute="top" relation="lessThanOrEqual" secondItem="AX8-Zq-v0Q" secondAttribute="bottom" constant="60" id="9Od-cb-W6z"/>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="AX8-Zq-v0Q" secondAttribute="trailing" constant="50" id="Lt1-Bl-hIr"/>
                             <constraint firstItem="ICM-x4-crn" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="Ye2-ay-eh6"/>
+                            <constraint firstAttribute="centerY" secondItem="AX8-Zq-v0Q" secondAttribute="centerY" priority="800" id="mZ5-8T-J8B"/>
                             <constraint firstAttribute="centerY" secondItem="ICM-x4-crn" secondAttribute="centerY" priority="800" id="oHB-1a-6HH"/>
                         </constraints>
                     </view>
