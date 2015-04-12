@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5097CF841ADAF38D00C0CC75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF831ADAF38D00C0CC75 /* main.m */; };
+		5097CF871ADAF38D00C0CC75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF861ADAF38D00C0CC75 /* AppDelegate.m */; };
+		5097CF8A1ADAF38D00C0CC75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF891ADAF38D00C0CC75 /* ViewController.m */; };
+		5097CF8D1ADAF38D00C0CC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5097CF8B1ADAF38D00C0CC75 /* Main.storyboard */; };
+		5097CF8F1ADAF38D00C0CC75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5097CF8E1ADAF38D00C0CC75 /* Images.xcassets */; };
+		5097CF921ADAF38D00C0CC75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5097CF901ADAF38D00C0CC75 /* LaunchScreen.xib */; };
+		5097CF9E1ADAF38D00C0CC75 /* FoobarMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF9D1ADAF38D00C0CC75 /* FoobarMobileTests.m */; };
+		5097CFB11ADAF3EE00C0CC75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CFB01ADAF3EE00C0CC75 /* AppDelegate.m */; };
+		5097CFB31ADAF3EE00C0CC75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CFB21ADAF3EE00C0CC75 /* main.m */; };
+		5097CFB51ADAF3EE00C0CC75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5097CFB41ADAF3EE00C0CC75 /* Images.xcassets */; };
+		5097CFB81ADAF3EE00C0CC75 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5097CFB61ADAF3EE00C0CC75 /* MainMenu.xib */; };
+		5097CFC41ADAF3EE00C0CC75 /* FoobarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CFC31ADAF3EE00C0CC75 /* FoobarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5097CF981ADAF38D00C0CC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5097CF761ADAF38D00C0CC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5097CF7D1ADAF38D00C0CC75;
+			remoteInfo = FoobarMobile;
+		};
+		5097CFBE1ADAF3EE00C0CC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5097CF761ADAF38D00C0CC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5097CFAA1ADAF3EE00C0CC75;
+			remoteInfo = Foobar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5097CF7E1ADAF38D00C0CC75 /* FoobarMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoobarMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5097CF821ADAF38D00C0CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5097CF831ADAF38D00C0CC75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5097CF851ADAF38D00C0CC75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5097CF861ADAF38D00C0CC75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5097CF881ADAF38D00C0CC75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5097CF891ADAF38D00C0CC75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5097CF8C1ADAF38D00C0CC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5097CF8E1ADAF38D00C0CC75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5097CF911ADAF38D00C0CC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5097CF971ADAF38D00C0CC75 /* FoobarMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoobarMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5097CF9C1ADAF38D00C0CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5097CF9D1ADAF38D00C0CC75 /* FoobarMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoobarMobileTests.m; sourceTree = "<group>"; };
+		5097CFAB1ADAF3EE00C0CC75 /* Foobar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foobar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5097CFAE1ADAF3EE00C0CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5097CFAF1ADAF3EE00C0CC75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5097CFB01ADAF3EE00C0CC75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5097CFB21ADAF3EE00C0CC75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5097CFB41ADAF3EE00C0CC75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5097CFB71ADAF3EE00C0CC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5097CFBD1ADAF3EE00C0CC75 /* FoobarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoobarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5097CFC21ADAF3EE00C0CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5097CFC31ADAF3EE00C0CC75 /* FoobarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoobarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5097CF7B1ADAF38D00C0CC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CF941ADAF38D00C0CC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CFA81ADAF3EE00C0CC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CFBA1ADAF3EE00C0CC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5097CF751ADAF38D00C0CC75 = {
+			isa = PBXGroup;
+			children = (
+				5097CF801ADAF38D00C0CC75 /* FoobarMobile */,
+				5097CF9A1ADAF38D00C0CC75 /* FoobarMobileTests */,
+				5097CFAC1ADAF3EE00C0CC75 /* Foobar */,
+				5097CFC01ADAF3EE00C0CC75 /* FoobarTests */,
+				5097CF7F1ADAF38D00C0CC75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5097CF7F1ADAF38D00C0CC75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5097CF7E1ADAF38D00C0CC75 /* FoobarMobile.app */,
+				5097CF971ADAF38D00C0CC75 /* FoobarMobileTests.xctest */,
+				5097CFAB1ADAF3EE00C0CC75 /* Foobar.app */,
+				5097CFBD1ADAF3EE00C0CC75 /* FoobarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5097CF801ADAF38D00C0CC75 /* FoobarMobile */ = {
+			isa = PBXGroup;
+			children = (
+				5097CF851ADAF38D00C0CC75 /* AppDelegate.h */,
+				5097CF861ADAF38D00C0CC75 /* AppDelegate.m */,
+				5097CF881ADAF38D00C0CC75 /* ViewController.h */,
+				5097CF891ADAF38D00C0CC75 /* ViewController.m */,
+				5097CF8B1ADAF38D00C0CC75 /* Main.storyboard */,
+				5097CF8E1ADAF38D00C0CC75 /* Images.xcassets */,
+				5097CF901ADAF38D00C0CC75 /* LaunchScreen.xib */,
+				5097CF811ADAF38D00C0CC75 /* Supporting Files */,
+			);
+			path = FoobarMobile;
+			sourceTree = "<group>";
+		};
+		5097CF811ADAF38D00C0CC75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5097CF821ADAF38D00C0CC75 /* Info.plist */,
+				5097CF831ADAF38D00C0CC75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5097CF9A1ADAF38D00C0CC75 /* FoobarMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				5097CF9D1ADAF38D00C0CC75 /* FoobarMobileTests.m */,
+				5097CF9B1ADAF38D00C0CC75 /* Supporting Files */,
+			);
+			path = FoobarMobileTests;
+			sourceTree = "<group>";
+		};
+		5097CF9B1ADAF38D00C0CC75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5097CF9C1ADAF38D00C0CC75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5097CFAC1ADAF3EE00C0CC75 /* Foobar */ = {
+			isa = PBXGroup;
+			children = (
+				5097CFAF1ADAF3EE00C0CC75 /* AppDelegate.h */,
+				5097CFB01ADAF3EE00C0CC75 /* AppDelegate.m */,
+				5097CFB41ADAF3EE00C0CC75 /* Images.xcassets */,
+				5097CFB61ADAF3EE00C0CC75 /* MainMenu.xib */,
+				5097CFAD1ADAF3EE00C0CC75 /* Supporting Files */,
+			);
+			path = Foobar;
+			sourceTree = "<group>";
+		};
+		5097CFAD1ADAF3EE00C0CC75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5097CFAE1ADAF3EE00C0CC75 /* Info.plist */,
+				5097CFB21ADAF3EE00C0CC75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5097CFC01ADAF3EE00C0CC75 /* FoobarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5097CFC31ADAF3EE00C0CC75 /* FoobarTests.m */,
+				5097CFC11ADAF3EE00C0CC75 /* Supporting Files */,
+			);
+			path = FoobarTests;
+			sourceTree = "<group>";
+		};
+		5097CFC11ADAF3EE00C0CC75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5097CFC21ADAF3EE00C0CC75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5097CF7D1ADAF38D00C0CC75 /* FoobarMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5097CFA11ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobile" */;
+			buildPhases = (
+				5097CF7A1ADAF38D00C0CC75 /* Sources */,
+				5097CF7B1ADAF38D00C0CC75 /* Frameworks */,
+				5097CF7C1ADAF38D00C0CC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoobarMobile;
+			productName = FoobarMobile;
+			productReference = 5097CF7E1ADAF38D00C0CC75 /* FoobarMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5097CF961ADAF38D00C0CC75 /* FoobarMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5097CFA41ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobileTests" */;
+			buildPhases = (
+				5097CF931ADAF38D00C0CC75 /* Sources */,
+				5097CF941ADAF38D00C0CC75 /* Frameworks */,
+				5097CF951ADAF38D00C0CC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5097CF991ADAF38D00C0CC75 /* PBXTargetDependency */,
+			);
+			name = FoobarMobileTests;
+			productName = FoobarMobileTests;
+			productReference = 5097CF971ADAF38D00C0CC75 /* FoobarMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5097CFAA1ADAF3EE00C0CC75 /* Foobar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5097CFC51ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "Foobar" */;
+			buildPhases = (
+				5097CFA71ADAF3EE00C0CC75 /* Sources */,
+				5097CFA81ADAF3EE00C0CC75 /* Frameworks */,
+				5097CFA91ADAF3EE00C0CC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foobar;
+			productName = Foobar;
+			productReference = 5097CFAB1ADAF3EE00C0CC75 /* Foobar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5097CFBC1ADAF3EE00C0CC75 /* FoobarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5097CFC81ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarTests" */;
+			buildPhases = (
+				5097CFB91ADAF3EE00C0CC75 /* Sources */,
+				5097CFBA1ADAF3EE00C0CC75 /* Frameworks */,
+				5097CFBB1ADAF3EE00C0CC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5097CFBF1ADAF3EE00C0CC75 /* PBXTargetDependency */,
+			);
+			name = FoobarTests;
+			productName = FoobarTests;
+			productReference = 5097CFBD1ADAF3EE00C0CC75 /* FoobarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5097CF761ADAF38D00C0CC75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					5097CF7D1ADAF38D00C0CC75 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5097CF961ADAF38D00C0CC75 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5097CF7D1ADAF38D00C0CC75;
+					};
+					5097CFAA1ADAF3EE00C0CC75 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5097CFBC1ADAF3EE00C0CC75 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5097CFAA1ADAF3EE00C0CC75;
+					};
+				};
+			};
+			buildConfigurationList = 5097CF791ADAF38D00C0CC75 /* Build configuration list for PBXProject "FoobarMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5097CF751ADAF38D00C0CC75;
+			productRefGroup = 5097CF7F1ADAF38D00C0CC75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5097CF7D1ADAF38D00C0CC75 /* FoobarMobile */,
+				5097CF961ADAF38D00C0CC75 /* FoobarMobileTests */,
+				5097CFAA1ADAF3EE00C0CC75 /* Foobar */,
+				5097CFBC1ADAF3EE00C0CC75 /* FoobarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5097CF7C1ADAF38D00C0CC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097CF8D1ADAF38D00C0CC75 /* Main.storyboard in Resources */,
+				5097CF921ADAF38D00C0CC75 /* LaunchScreen.xib in Resources */,
+				5097CF8F1ADAF38D00C0CC75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CF951ADAF38D00C0CC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CFA91ADAF3EE00C0CC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097CFB51ADAF3EE00C0CC75 /* Images.xcassets in Resources */,
+				5097CFB81ADAF3EE00C0CC75 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CFBB1ADAF3EE00C0CC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5097CF7A1ADAF38D00C0CC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097CF8A1ADAF38D00C0CC75 /* ViewController.m in Sources */,
+				5097CF871ADAF38D00C0CC75 /* AppDelegate.m in Sources */,
+				5097CF841ADAF38D00C0CC75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CF931ADAF38D00C0CC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097CF9E1ADAF38D00C0CC75 /* FoobarMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CFA71ADAF3EE00C0CC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097CFB31ADAF3EE00C0CC75 /* main.m in Sources */,
+				5097CFB11ADAF3EE00C0CC75 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5097CFB91ADAF3EE00C0CC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097CFC41ADAF3EE00C0CC75 /* FoobarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5097CF991ADAF38D00C0CC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5097CF7D1ADAF38D00C0CC75 /* FoobarMobile */;
+			targetProxy = 5097CF981ADAF38D00C0CC75 /* PBXContainerItemProxy */;
+		};
+		5097CFBF1ADAF3EE00C0CC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5097CFAA1ADAF3EE00C0CC75 /* Foobar */;
+			targetProxy = 5097CFBE1ADAF3EE00C0CC75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5097CF8B1ADAF38D00C0CC75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5097CF8C1ADAF38D00C0CC75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5097CF901ADAF38D00C0CC75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5097CF911ADAF38D00C0CC75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5097CFB61ADAF3EE00C0CC75 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5097CFB71ADAF3EE00C0CC75 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5097CF9F1ADAF38D00C0CC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5097CFA01ADAF38D00C0CC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5097CFA21ADAF38D00C0CC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoobarMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5097CFA31ADAF38D00C0CC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoobarMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5097CFA51ADAF38D00C0CC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoobarMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoobarMobile.app/FoobarMobile";
+			};
+			name = Debug;
+		};
+		5097CFA61ADAF38D00C0CC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoobarMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoobarMobile.app/FoobarMobile";
+			};
+			name = Release;
+		};
+		5097CFC61ADAF3EE00C0CC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Foobar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5097CFC71ADAF3EE00C0CC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Foobar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5097CFC91ADAF3EE00C0CC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoobarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foobar.app/Contents/MacOS/Foobar";
+			};
+			name = Debug;
+		};
+		5097CFCA1ADAF3EE00C0CC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoobarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foobar.app/Contents/MacOS/Foobar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5097CF791ADAF38D00C0CC75 /* Build configuration list for PBXProject "FoobarMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5097CF9F1ADAF38D00C0CC75 /* Debug */,
+				5097CFA01ADAF38D00C0CC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5097CFA11ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5097CFA21ADAF38D00C0CC75 /* Debug */,
+				5097CFA31ADAF38D00C0CC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5097CFA41ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5097CFA51ADAF38D00C0CC75 /* Debug */,
+				5097CFA61ADAF38D00C0CC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5097CFC51ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "Foobar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5097CFC61ADAF3EE00C0CC75 /* Debug */,
+				5097CFC71ADAF3EE00C0CC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5097CFC81ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5097CFC91ADAF3EE00C0CC75 /* Debug */,
+				5097CFCA1ADAF3EE00C0CC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5097CF761ADAF38D00C0CC75 /* Project object */;
+}
