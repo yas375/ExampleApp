@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A7BEFD099DACB1366B58DF /* libPods-FoobarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFF6EA5F653DF5F40E5CDFD /* libPods-FoobarTests.a */; };
 		5097CF841ADAF38D00C0CC75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF831ADAF38D00C0CC75 /* main.m */; };
 		5097CF871ADAF38D00C0CC75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF861ADAF38D00C0CC75 /* AppDelegate.m */; };
 		5097CF8A1ADAF38D00C0CC75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CF891ADAF38D00C0CC75 /* ViewController.m */; };
@@ -19,6 +20,9 @@
 		5097CFB51ADAF3EE00C0CC75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5097CFB41ADAF3EE00C0CC75 /* Images.xcassets */; };
 		5097CFB81ADAF3EE00C0CC75 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5097CFB61ADAF3EE00C0CC75 /* MainMenu.xib */; };
 		5097CFC41ADAF3EE00C0CC75 /* FoobarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097CFC31ADAF3EE00C0CC75 /* FoobarTests.m */; };
+		C12A65EC32F017AE1E183C5A /* libPods-FoobarMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8C100BB0B409BED22A2A52 /* libPods-FoobarMobileTests.a */; };
+		D001D2A6B53D5513FE817DAD /* libPods-FoobarMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC1D1545A30FE6B50A2BF32 /* libPods-FoobarMobile.a */; };
+		DF5631C4EA41329A8024274C /* libPods-Foobar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A84E9547305549556E074790 /* libPods-Foobar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E75CD87F23E62E7F680311C /* Pods-FoobarMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoobarMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoobarMobile/Pods-FoobarMobile.release.xcconfig"; sourceTree = "<group>"; };
+		27D80FC6DE06725E20F0FA64 /* Pods-Foobar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foobar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foobar/Pods-Foobar.debug.xcconfig"; sourceTree = "<group>"; };
+		47EE9FEB0719D6C2E22F7B88 /* Pods-Foobar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foobar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foobar/Pods-Foobar.release.xcconfig"; sourceTree = "<group>"; };
 		5097CF7E1ADAF38D00C0CC75 /* FoobarMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoobarMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5097CF821ADAF38D00C0CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5097CF831ADAF38D00C0CC75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +69,15 @@
 		5097CFBD1ADAF3EE00C0CC75 /* FoobarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoobarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5097CFC21ADAF3EE00C0CC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5097CFC31ADAF3EE00C0CC75 /* FoobarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoobarTests.m; sourceTree = "<group>"; };
+		5F33EDEE7FC9784213A31BDA /* Pods-FoobarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoobarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoobarTests/Pods-FoobarTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D6FED40CC7A8914E18248AF /* Pods-FoobarMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoobarMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoobarMobileTests/Pods-FoobarMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DC1D1545A30FE6B50A2BF32 /* libPods-FoobarMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoobarMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84E9547305549556E074790 /* libPods-Foobar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foobar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFF6EA5F653DF5F40E5CDFD /* libPods-FoobarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoobarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C100BB0B409BED22A2A52 /* libPods-FoobarMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoobarMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F098C8D9383AA593C20631A7 /* Pods-FoobarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoobarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoobarTests/Pods-FoobarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDF101DDB984C14605CE7B5D /* Pods-FoobarMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoobarMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoobarMobileTests/Pods-FoobarMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE7CE4F04461FC42F361C67C /* Pods-FoobarMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoobarMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoobarMobile/Pods-FoobarMobile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D001D2A6B53D5513FE817DAD /* libPods-FoobarMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12A65EC32F017AE1E183C5A /* libPods-FoobarMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5631C4EA41329A8024274C /* libPods-Foobar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +109,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A7BEFD099DACB1366B58DF /* libPods-FoobarTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06CABCB3CDABB81300D6A239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27D80FC6DE06725E20F0FA64 /* Pods-Foobar.debug.xcconfig */,
+				47EE9FEB0719D6C2E22F7B88 /* Pods-Foobar.release.xcconfig */,
+				FE7CE4F04461FC42F361C67C /* Pods-FoobarMobile.debug.xcconfig */,
+				1E75CD87F23E62E7F680311C /* Pods-FoobarMobile.release.xcconfig */,
+				6D6FED40CC7A8914E18248AF /* Pods-FoobarMobileTests.debug.xcconfig */,
+				FDF101DDB984C14605CE7B5D /* Pods-FoobarMobileTests.release.xcconfig */,
+				F098C8D9383AA593C20631A7 /* Pods-FoobarTests.debug.xcconfig */,
+				5F33EDEE7FC9784213A31BDA /* Pods-FoobarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BBD90F0D9515FF65EF8DC73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84E9547305549556E074790 /* libPods-Foobar.a */,
+				6DC1D1545A30FE6B50A2BF32 /* libPods-FoobarMobile.a */,
+				DE8C100BB0B409BED22A2A52 /* libPods-FoobarMobileTests.a */,
+				CAFF6EA5F653DF5F40E5CDFD /* libPods-FoobarTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5097CF751ADAF38D00C0CC75 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +150,8 @@
 				5097CFAC1ADAF3EE00C0CC75 /* Foobar */,
 				5097CFC01ADAF3EE00C0CC75 /* FoobarTests */,
 				5097CF7F1ADAF38D00C0CC75 /* Products */,
+				06CABCB3CDABB81300D6A239 /* Pods */,
+				3BBD90F0D9515FF65EF8DC73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5097CFA11ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobile" */;
 			buildPhases = (
+				810540A6E0F5204ACBDC1874 /* Check Pods Manifest.lock */,
 				5097CF7A1ADAF38D00C0CC75 /* Sources */,
 				5097CF7B1ADAF38D00C0CC75 /* Frameworks */,
 				5097CF7C1ADAF38D00C0CC75 /* Resources */,
+				D8482B0479C8DF991C750C5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5097CFA41ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobileTests" */;
 			buildPhases = (
+				04EF2BEBE263E6F00B041066 /* Check Pods Manifest.lock */,
 				5097CF931ADAF38D00C0CC75 /* Sources */,
 				5097CF941ADAF38D00C0CC75 /* Frameworks */,
 				5097CF951ADAF38D00C0CC75 /* Resources */,
+				EC0E418EE5CD062038431F65 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5097CFC51ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "Foobar" */;
 			buildPhases = (
+				279539049F2EDEB2E2FD1ACF /* Check Pods Manifest.lock */,
 				5097CFA71ADAF3EE00C0CC75 /* Sources */,
 				5097CFA81ADAF3EE00C0CC75 /* Frameworks */,
 				5097CFA91ADAF3EE00C0CC75 /* Resources */,
+				4BFFEB6FFCD3AF3E4E47F415 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5097CFC81ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarTests" */;
 			buildPhases = (
+				24784E5D85217072881C4999 /* Check Pods Manifest.lock */,
 				5097CFB91ADAF3EE00C0CC75 /* Sources */,
 				5097CFBA1ADAF3EE00C0CC75 /* Frameworks */,
 				5097CFBB1ADAF3EE00C0CC75 /* Resources */,
+				CBBCF6E3E6BB95BB2C6B310F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,6 +407,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EF2BEBE263E6F00B041066 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24784E5D85217072881C4999 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		279539049F2EDEB2E2FD1ACF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BFFEB6FFCD3AF3E4E47F415 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foobar/Pods-Foobar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810540A6E0F5204ACBDC1874 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBCF6E3E6BB95BB2C6B310F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoobarTests/Pods-FoobarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8482B0479C8DF991C750C5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoobarMobile/Pods-FoobarMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0E418EE5CD062038431F65 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoobarMobileTests/Pods-FoobarMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5097CF7A1ADAF38D00C0CC75 /* Sources */ = {
@@ -515,6 +694,7 @@
 		};
 		5097CFA21ADAF38D00C0CC75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7CE4F04461FC42F361C67C /* Pods-FoobarMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoobarMobile/Info.plist;
@@ -525,6 +705,7 @@
 		};
 		5097CFA31ADAF38D00C0CC75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E75CD87F23E62E7F680311C /* Pods-FoobarMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoobarMobile/Info.plist;
@@ -535,6 +716,7 @@
 		};
 		5097CFA51ADAF38D00C0CC75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6FED40CC7A8914E18248AF /* Pods-FoobarMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -554,6 +736,7 @@
 		};
 		5097CFA61ADAF38D00C0CC75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF101DDB984C14605CE7B5D /* Pods-FoobarMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -569,6 +752,7 @@
 		};
 		5097CFC61ADAF3EE00C0CC75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D80FC6DE06725E20F0FA64 /* Pods-Foobar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -588,6 +772,7 @@
 		};
 		5097CFC71ADAF3EE00C0CC75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EE9FEB0719D6C2E22F7B88 /* Pods-Foobar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -602,6 +787,7 @@
 		};
 		5097CFC91ADAF3EE00C0CC75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F098C8D9383AA593C20631A7 /* Pods-FoobarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -625,6 +811,7 @@
 		};
 		5097CFCA1ADAF3EE00C0CC75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F33EDEE7FC9784213A31BDA /* Pods-FoobarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -660,6 +847,7 @@
 				5097CFA31ADAF38D00C0CC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5097CFA41ADAF38D00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -668,6 +856,7 @@
 				5097CFA61ADAF38D00C0CC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5097CFC51ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "Foobar" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +865,7 @@
 				5097CFC71ADAF3EE00C0CC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5097CFC81ADAF3EE00C0CC75 /* Build configuration list for PBXNativeTarget "FoobarTests" */ = {
 			isa = XCConfigurationList;
@@ -684,6 +874,7 @@
 				5097CFCA1ADAF3EE00C0CC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
