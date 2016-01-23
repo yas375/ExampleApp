@@ -36,7 +36,7 @@ class ViewController: UIViewController {
       let controller = segue.destinationViewController as! AVPlayerViewController
       controller.player = self.makePlayer()
       controller.showsPlaybackControls = false
-      controller.player?.play() // edges are flickering even if we don't play the video
+      controller.player?.play()
     }
   }
 }
