@@ -32,12 +32,24 @@
                                                     <constraint firstAttribute="height" constant="236" id="sHw-LD-Y7W"/>
                                                 </constraints>
                                             </view>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZ6-FE-vAo">
+                                                <rect key="frame" x="40" y="301" width="320" height="236"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="236" id="OmT-gv-P7P"/>
+                                                    <constraint firstAttribute="width" constant="320" id="VXY-jp-XM2"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="OqQ-1k-sgQ" kind="embed" identifier="embedPlayer" id="zZW-sj-3lQ"/>
+                                                </connections>
+                                            </containerView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="deviceRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="400" id="IbK-TT-wBK"/>
                                             <constraint firstItem="Nfu-O8-WwH" firstAttribute="top" secondItem="csu-Tp-69I" secondAttribute="top" constant="40" id="SyW-kf-R1b"/>
                                             <constraint firstAttribute="height" constant="1000" id="UW8-r5-MgV"/>
+                                            <constraint firstItem="fZ6-FE-vAo" firstAttribute="top" secondItem="Nfu-O8-WwH" secondAttribute="bottom" constant="25" id="dDE-uF-84y"/>
+                                            <constraint firstItem="fZ6-FE-vAo" firstAttribute="centerX" secondItem="csu-Tp-69I" secondAttribute="centerX" id="dH8-aR-d9B"/>
                                             <constraint firstItem="Nfu-O8-WwH" firstAttribute="centerX" secondItem="csu-Tp-69I" secondAttribute="centerX" id="wkD-N2-1TD"/>
                                         </constraints>
                                     </view>
@@ -66,6 +78,20 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="340" y="429"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="cxY-Vc-kJ4">
+            <objects>
+                <viewController id="OqQ-1k-sgQ" customClass="AVPlayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Exm-9b-LfJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="236"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.49065085209999998" blue="0.45546976550000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YSC-Rz-qQb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="1024"/>
         </scene>
     </scenes>
 </document>
