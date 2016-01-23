@@ -13,6 +13,7 @@
 		50E2F27D1C5312A90055B574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E2F27C1C5312A90055B574 /* Assets.xcassets */; };
 		50E2F2801C5312A90055B574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E2F27E1C5312A90055B574 /* LaunchScreen.storyboard */; };
 		50E2F2881C5313F80055B574 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2F2871C5313F80055B574 /* PlayerView.swift */; };
+		50E2F28A1C5317960055B574 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 50E2F2891C5317960055B574 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50E2F27F1C5312A90055B574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E2F2811C5312A90055B574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E2F2871C5313F80055B574 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		50E2F2891C5317960055B574 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				50E2F27E1C5312A90055B574 /* LaunchScreen.storyboard */,
 				50E2F2791C5312A90055B574 /* Main.storyboard */,
 				50E2F2871C5313F80055B574 /* PlayerView.swift */,
+				50E2F2891C5317960055B574 /* video.mp4 */,
 				50E2F2771C5312A90055B574 /* ViewController.swift */,
 			);
 			path = PlayerInsideScrollView;
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E2F28A1C5317960055B574 /* video.mp4 in Resources */,
 				50E2F2801C5312A90055B574 /* LaunchScreen.storyboard in Resources */,
 				50E2F27D1C5312A90055B574 /* Assets.xcassets in Resources */,
 				50E2F27B1C5312A90055B574 /* Main.storyboard in Resources */,
@@ -202,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
