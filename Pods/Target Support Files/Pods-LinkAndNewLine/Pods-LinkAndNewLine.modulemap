@@ -1,0 +1,6 @@
+framework module Pods_LinkAndNewLine {
+  umbrella header "Pods-LinkAndNewLine-umbrella.h"
+
+  export *
+  module * { export * }
+}
