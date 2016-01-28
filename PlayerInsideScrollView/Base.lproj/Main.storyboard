@@ -18,43 +18,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csu-Tp-69I">
-                                <rect key="frame" x="0.0" y="0.0" width="400" height="1000"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B68-h3-nLW">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nfu-O8-WwH" customClass="PlayerView" customModule="PlayerInsideScrollView" customModuleProvider="target">
-                                        <rect key="frame" x="40" y="40" width="320" height="236"/>
-                                        <color key="backgroundColor" red="0.51354356749999996" green="0.87018134120000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csu-Tp-69I">
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="1000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nfu-O8-WwH" customClass="PlayerView" customModule="PlayerInsideScrollView" customModuleProvider="target">
+                                                <rect key="frame" x="40" y="40" width="320" height="236"/>
+                                                <color key="backgroundColor" red="0.51354356749999996" green="0.87018134120000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="320" id="8rD-TS-cCh"/>
+                                                    <constraint firstAttribute="height" constant="236" id="sHw-LD-Y7W"/>
+                                                </constraints>
+                                            </view>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZ6-FE-vAo">
+                                                <rect key="frame" x="40" y="301" width="320" height="236"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="236" id="OmT-gv-P7P"/>
+                                                    <constraint firstAttribute="width" constant="320" id="VXY-jp-XM2"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="OqQ-1k-sgQ" kind="embed" identifier="embedPlayer" id="zZW-sj-3lQ"/>
+                                                </connections>
+                                            </containerView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="deviceRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="320" id="8rD-TS-cCh"/>
-                                            <constraint firstAttribute="height" constant="236" id="sHw-LD-Y7W"/>
+                                            <constraint firstAttribute="width" constant="400" id="IbK-TT-wBK"/>
+                                            <constraint firstItem="Nfu-O8-WwH" firstAttribute="top" secondItem="csu-Tp-69I" secondAttribute="top" constant="40" id="SyW-kf-R1b"/>
+                                            <constraint firstAttribute="height" constant="1000" id="UW8-r5-MgV"/>
+                                            <constraint firstItem="fZ6-FE-vAo" firstAttribute="top" secondItem="Nfu-O8-WwH" secondAttribute="bottom" constant="25" id="dDE-uF-84y"/>
+                                            <constraint firstItem="fZ6-FE-vAo" firstAttribute="centerX" secondItem="csu-Tp-69I" secondAttribute="centerX" id="dH8-aR-d9B"/>
+                                            <constraint firstItem="Nfu-O8-WwH" firstAttribute="centerX" secondItem="csu-Tp-69I" secondAttribute="centerX" id="wkD-N2-1TD"/>
                                         </constraints>
                                     </view>
-                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZ6-FE-vAo">
-                                        <rect key="frame" x="40" y="301" width="320" height="236"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="236" id="OmT-gv-P7P"/>
-                                            <constraint firstAttribute="width" constant="320" id="VXY-jp-XM2"/>
-                                        </constraints>
-                                        <connections>
-                                            <segue destination="OqQ-1k-sgQ" kind="embed" identifier="embedPlayer" id="zZW-sj-3lQ"/>
-                                        </connections>
-                                    </containerView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="IbK-TT-wBK"/>
-                                    <constraint firstItem="Nfu-O8-WwH" firstAttribute="top" secondItem="csu-Tp-69I" secondAttribute="top" constant="40" id="SyW-kf-R1b"/>
-                                    <constraint firstAttribute="height" constant="1000" id="UW8-r5-MgV"/>
-                                    <constraint firstItem="fZ6-FE-vAo" firstAttribute="top" secondItem="Nfu-O8-WwH" secondAttribute="bottom" constant="25" id="dDE-uF-84y"/>
-                                    <constraint firstItem="fZ6-FE-vAo" firstAttribute="centerX" secondItem="csu-Tp-69I" secondAttribute="centerX" id="dH8-aR-d9B"/>
-                                    <constraint firstItem="Nfu-O8-WwH" firstAttribute="centerX" secondItem="csu-Tp-69I" secondAttribute="centerX" id="wkD-N2-1TD"/>
+                                    <constraint firstItem="csu-Tp-69I" firstAttribute="top" secondItem="B68-h3-nLW" secondAttribute="top" id="VXj-Eq-eAe"/>
+                                    <constraint firstAttribute="trailing" secondItem="csu-Tp-69I" secondAttribute="trailing" id="YQo-8Y-ocT"/>
+                                    <constraint firstItem="csu-Tp-69I" firstAttribute="leading" secondItem="B68-h3-nLW" secondAttribute="leading" id="vFT-Fg-uhL"/>
+                                    <constraint firstAttribute="bottom" secondItem="csu-Tp-69I" secondAttribute="bottom" id="wtf-8d-NCA"/>
                                 </constraints>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="csu-Tp-69I" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="3qb-dq-ea3"/>
-                            <constraint firstItem="csu-Tp-69I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3wt-KE-dq7"/>
+                            <constraint firstItem="B68-h3-nLW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Sk-3I-xEI"/>
+                            <constraint firstItem="B68-h3-nLW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Hqo-Gx-GqC"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="B68-h3-nLW" secondAttribute="bottom" id="dGY-bu-xZd"/>
+                            <constraint firstAttribute="trailing" secondItem="B68-h3-nLW" secondAttribute="trailing" id="uMO-EX-bmk"/>
                         </constraints>
                     </view>
                     <connections>
