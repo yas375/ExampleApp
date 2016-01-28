@@ -14,7 +14,7 @@ class ViewController: UIViewController {
   @IBOutlet var playerView: PlayerView!
 
   func makePlayer() -> AVPlayer? {
-    if let url = NSBundle.mainBundle().URLForResource("video", withExtension: "mp4") {
+    if let url = NSBundle.mainBundle().URLForResource("sample_mpeg4", withExtension: "mp4") {
       return AVPlayer(URL: url)
     }
     return nil
