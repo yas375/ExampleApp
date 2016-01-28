@@ -16,11 +16,59 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lid-wK-YoR" userLabel="container limiting width">
+                                <rect key="frame" x="140" y="200" width="320" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ne9-vp-ogq">
+                                        <rect key="frame" x="139" y="10" width="42" height="21"/>
+                                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="82" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="Hsd-3M-boo" customClass="DTAttributedLabel">
+                                        <rect key="frame" x="119" y="55" width="82" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.49065085209999998" blue="0.45546976550000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="54" translatesAutoresizingMaskIntoConstraints="NO" id="IfA-ic-X46" customClass="DTAttributedLabel">
+                                        <rect key="frame" x="0.0" y="129" width="320" height="54"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ne9-vp-ogq" secondAttribute="trailing" id="0a9-7E-h8C"/>
+                                    <constraint firstAttribute="trailing" secondItem="IfA-ic-X46" secondAttribute="trailing" id="2c6-uR-aGG"/>
+                                    <constraint firstAttribute="width" constant="320" id="6k1-I1-2wF"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Hsd-3M-boo" secondAttribute="trailing" id="7UO-Io-wgw"/>
+                                    <constraint firstItem="Ne9-vp-ogq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lid-wK-YoR" secondAttribute="leading" id="GcM-F0-5MD"/>
+                                    <constraint firstItem="IfA-ic-X46" firstAttribute="leading" secondItem="lid-wK-YoR" secondAttribute="leading" id="Icu-aJ-zVI"/>
+                                    <constraint firstItem="Hsd-3M-boo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lid-wK-YoR" secondAttribute="leading" id="OaU-oj-atq"/>
+                                    <constraint firstItem="Ne9-vp-ogq" firstAttribute="centerX" secondItem="lid-wK-YoR" secondAttribute="centerX" id="Z3A-j2-8AH"/>
+                                    <constraint firstItem="Hsd-3M-boo" firstAttribute="centerX" secondItem="lid-wK-YoR" secondAttribute="centerX" id="bBZ-Xe-snR"/>
+                                    <constraint firstItem="IfA-ic-X46" firstAttribute="top" secondItem="Hsd-3M-boo" secondAttribute="bottom" constant="24" id="chF-NK-Ln0"/>
+                                    <constraint firstAttribute="height" constant="200" id="l46-BZ-Jvd"/>
+                                    <constraint firstItem="Ne9-vp-ogq" firstAttribute="top" secondItem="lid-wK-YoR" secondAttribute="top" constant="10" id="psP-bi-Jtp"/>
+                                    <constraint firstItem="Hsd-3M-boo" firstAttribute="top" secondItem="Ne9-vp-ogq" secondAttribute="bottom" constant="24" id="tBT-qf-OoO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lid-wK-YoR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DnH-Du-gez"/>
+                            <constraint firstItem="lid-wK-YoR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eIe-hr-shU"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dtlabel" destination="Hsd-3M-boo" id="Qxg-1M-Q2q"/>
+                        <outlet property="dtlabel2" destination="IfA-ic-X46" id="nbn-rx-dhA"/>
+                        <outlet property="label" destination="Ne9-vp-ogq" id="EaH-Ek-jlN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="387"/>
         </scene>
     </scenes>
 </document>
